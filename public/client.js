@@ -1,4 +1,4 @@
-const socket = io();
+const socket = io("https://idlechatscape.onrender.com");
 
 const form = document.getElementById("chat-form");
 const input = document.getElementById("msg-input");
